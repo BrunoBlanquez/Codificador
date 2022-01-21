@@ -1,30 +1,25 @@
-let cifra = document.getElementById('cifra')
-let incremento = document.getElementById('divIncremento')
-let btnCheck = document.getElementById('btn')
-let labelCifra = document.getElementById('labelCifra')
-let labelBase = document.getElementById('labelBase')
+import initScrollSuave from "./modules/scrollSuave.js";
+import initAnimaScroll from "./modules/scroll-animacao.js";
+import initAccordion from "./modules/accordion.js";
+import initTabNav from "./modules/tabNav.js";
+import initModal from "./modules/modal.js";
+import initTooltip from "./modules/tooltip.js";
+import initDropDown from "./modules/dropdown-menu.js";
+// import outsideClick from "./modules/outsideClick.js";
+import aula from "./modules/aula.js";
+import initMenuMobile from "./modules/menu-mobile.js";
+import initAnimaNumeros from "./modules/anima-numeros.js";
+import initFuncionamento from "./modules/funcionamento.js";
 
-
-labelCifra.addEventListener('click', function() {
-    mostrarIncremento()
-})
-
-labelBase.addEventListener('click', function() {
-    escondeIncremento()
-})
-
-function mostrarIncremento() {
-    if (incremento.style.display = "none") {
-    incremento.style.display = "flex";
-  } else {
-    incremento.style.display = "none"
-  }
-}
-
-function escondeIncremento() {
-    if (incremento.style.display = "flex") {
-    incremento.style.display = "none";
-  } else {
-    incremento.style.display = "none"
-  }
-}
+initScrollSuave();
+initAnimaScroll();
+initAccordion();
+initTabNav();
+initModal();
+initTooltip();
+initDropDown();
+// outsideClick();
+aula();
+initMenuMobile();
+initAnimaNumeros();
+initFuncionamento();
