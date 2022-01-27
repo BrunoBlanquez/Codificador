@@ -1,7 +1,7 @@
 import incremento from "./incremento.js";
 import mudarMsgBtn from "./btnCod.js"
-import cifraDeCesar from "./cifraDeCesar.js"
+import codificadores from "./codificadores.js"
 
 incremento();
 mudarMsgBtn();
-cifraDeCesar();
+codificadores();

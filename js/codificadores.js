@@ -1,4 +1,4 @@
-export default function cifraa() {
+export default function codificadores() {
     // Peguei o botão
     let btn = document.querySelector('.btn')
     // Peguei a área da msg
