@@ -3,7 +3,6 @@ export default function incremento() {
   let labelCifra = document.getElementById('labelCifra')
   let labelBase = document.getElementById('labelBase')
 
-
   labelCifra.addEventListener('click', function() {
       mostrarIncremento()
   })
