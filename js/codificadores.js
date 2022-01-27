@@ -48,12 +48,11 @@ export default function codificadores() {
                 fraseCodificada[i] = ' ';
             }
     }
-    console.log(fraseCodificada.join('')); // TRANSFORMA um ARRAY EM UMA FRASE COMPLETA
     resultField.innerText = fraseCodificada.join('')
     }
     const decBase64 = () => {
         // Peguei o texto do campo de mensagem e converti o texto para minusculo
-        let frase = texto.value.toLowerCase();
+        let frase = texto.value;
         if (inputCodificar.checked) {
             let fraseCod = btoa(frase)
             resultField.innerText = fraseCod
