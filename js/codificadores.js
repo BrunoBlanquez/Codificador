@@ -15,9 +15,10 @@ export default function codificadores() {
         event.preventDefault();
         if (inputCifra.checked) {
             cifraCesar()
-        } else (
+        } else {
             decBase64()
-        )
+        }
+        
     })
 
     // Lógica da codificação
